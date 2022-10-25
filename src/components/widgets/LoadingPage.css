@@ -1,0 +1,14 @@
+.loadingpage-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.loadingpage-div * {
+    width: 35px;
+    height: 35px;
+    border-top: 4px solid var(--primary);
+    border-right: 4px solid var(--primary);
+    border-bottom: 4px solid var(--primary);
+    border-left: 4px solid var(--lightGrey);
+}

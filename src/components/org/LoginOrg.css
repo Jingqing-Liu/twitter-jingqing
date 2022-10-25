@@ -1,0 +1,19 @@
+.loginorg-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    height: 100%;
+    width: 100%;
+}
+
+.login-logo-container {
+    height: 40px;
+    width: 40px;
+}
+
+.login-links-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}

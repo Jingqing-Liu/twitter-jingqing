@@ -1,0 +1,48 @@
+.searchbar-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--xLightGrey);
+    border: 1px solid var(--xLightGrey);
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    transition: 100ms ease;
+    box-sizing: border-box;
+    cursor: text;
+}
+
+@media (max-width: 450px) {
+    .searchbar-div{
+        width: 83%;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+.searchbar-div:focus-within {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}
+
+.searchbar-div:focus-within svg {
+    color: var(--primary);
+}
+
+.searchbar-div svg {
+    color: var(--darkGrey);
+    width: 20px;
+    height: 20px;
+}
+
+.searchbar-input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0 0.3rem;
+    font-size: 14px;
+}
+
+.searchbar-input::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}

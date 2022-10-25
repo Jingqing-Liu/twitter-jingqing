@@ -1,0 +1,7 @@
+.noposts {
+    color: var(--darkGrey);
+    text-align: center;
+    padding: 2rem 6rem;
+    box-sizing: border-box;
+    font-size: 20px;
+}

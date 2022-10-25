@@ -1,0 +1,37 @@
+button {
+    cursor: pointer;
+    transition: 150ms ease;
+    background-color: var(--white);
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: var(--primary);
+}
+
+button:hover {
+    background-color: var(--xLightGrey);
+}
+
+button.delete-account {
+    color: var(--error);
+}
+
+button.delete-account:hover {
+    background-color: var(--errorLight);
+}
+
+.spinner-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-container * {
+    width: 28px;
+    height: 28px;
+    border-top: 4px solid var(--errorLight);
+    border-right: 4px solid var(--errorLight);
+    border-bottom: 4px solid var(--errorLight);
+    border-left: 4px solid var(--error);
+}

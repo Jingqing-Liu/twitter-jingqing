@@ -1,0 +1,15 @@
+.footer-style {
+    padding: 1rem 0;
+}
+
+.footer-style p {
+    margin: 0 1.2rem;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-style p a {
+    color: var(--primary);
+    text-decoration: none;
+}

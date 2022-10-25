@@ -1,0 +1,20 @@
+.rightBar-section{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.rightbar-search-container {
+    width: 80%;
+}
+
+.rightbar-suggested-container {
+    width: 80%;
+}
+
+.rightbar-filter-container {
+    width: 80%;
+}

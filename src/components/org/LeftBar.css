@@ -1,0 +1,118 @@
+.leftbar-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    height: 100%;
+}
+
+.leftbar-logo-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+.leftbar-logo-container a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftbar-logo-container:hover {
+    background-color: var(--xLightGrey);
+}
+
+.leftbar-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.leftbar-big-button-container button {
+    height: 3.5rem;
+    font-size: 19px;
+}
+
+@media (max-width: 1200px) {
+    .leftbar-big-button-container button {
+        width: fit-content;
+        padding: 0.9rem;
+    }
+    .leftbar-big-button-container button span {
+        display: none;
+    }
+}
+
+
+.leftbar-drop-user-card-container {
+    position: fixed;
+    bottom: 0;
+}
+
+.leftbar-user-card-container {
+    display: flex;
+    width: 105%;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+.leftbar-user-card-container:hover {
+    background-color: var(--xLightGrey);
+}
+
+.leftbar-user-card-container svg {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+    .leftbar-user-card-container{
+        width: fit-content;
+    }
+    .leftbar-user-card-container svg{
+        display: none;
+    }
+    .leftbar-user-card-container h2{
+        display: none;
+    }
+    .leftbar-user-card-container sub{
+        display: none;
+    }
+}
+
+.user-drop-up {
+    cursor: default;
+}
+
+.leftbar-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leftbar-list * {
+    width: 100%;
+    transition: 150ms ease;
+    color: var(--black);
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.leftbar-list *:hover {
+    background-color: var(--xLightGrey);
+}
+
+@media (max-width: 1200px) {
+    .leftbar-list * {
+        width: fit-content;
+    }
+}

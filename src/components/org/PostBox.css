@@ -1,0 +1,65 @@
+.postboxdiv{
+    display: grid;
+    grid-template-columns: 2fr 14fr;
+    width: 100%;
+    min-height: 9rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--xLightGrey);
+    position: relative;
+}
+
+.box-avatar-container {
+    height: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.box-avatar-container * {
+    cursor: pointer;
+}
+
+.box-post-container {
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.box-input-container {
+    width: 100%;
+    border-bottom: 1px solid var(--xLightGrey);
+}
+
+.box-options-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 3rem;
+    margin-top: 1rem;
+}
+    
+.box-post-button-container {
+    width: 5.5rem;
+}
+
+.box-post-button-container button {
+    padding: 0.5rem 1rem;
+}
+
+.postbox-testarea{
+    width: 98%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding-top: 0.5rem;
+    min-height: 32px;
+    max-height: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.postbox-testarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

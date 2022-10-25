@@ -1,0 +1,22 @@
+.signuporg-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    height: 100%;
+    width: 100%;
+}
+
+.signup-logo-container {
+    height: 40px;
+    width: 40px;
+}
+
+.signup-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-error-container {
+    margin-top: -1rem;
+}

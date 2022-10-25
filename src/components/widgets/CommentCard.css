@@ -1,0 +1,129 @@
+.commentcard-div {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1rem 0.8rem;
+    border-bottom: 1px solid var(--xLightGrey);
+    position: relative;
+}
+
+.comment-avatar-container {
+    width: 4rem;
+}
+
+.comment-rest-container {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.commenter-info {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.commenter-info h1,
+.commenter-info p {
+    margin: 0;
+}
+
+.commenter-info span,
+.commenter-info p {
+    font-size: 15px;
+    color: var(--darkGrey);
+}
+
+.commenter-info a {
+    display: inherit;
+    gap: inherit;
+    text-decoration: none;
+    align-items: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    color: transparent;
+    --webkit-background-clip: text;
+}
+
+.commenter-info a:active {
+    background-color: transparent;
+}
+
+.commenter-info a:hover > h1 {
+    text-decoration: underline;
+}
+
+.commenter-info a h1,
+.commenter-info a span {
+    overflow-x: hidden;
+    word-wrap: none;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    white-space: nowrap;
+    --webkit-background-clip: text;
+}
+
+@media (max-width: 550px) {
+    .commenter-info a h1,
+    .commenter-info a span {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 460px) {
+    .commenter-info a h1,
+    .commenter-info a span {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 460px) {
+    .commenter-info a h1 {
+        max-width: 80px;
+    }
+
+    .commenter-info a span {
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 350px) {
+    .commenter-info a {
+        overflow-x: hidden;
+        word-wrap: none;
+        text-overflow: ellipsis;
+        max-width: 130px;
+    }
+    .commenter-info a h1,
+    .commenter-info a span {
+        overflow-x: initial;
+        word-wrap: initial;
+        text-overflow: initial;
+        max-width: none;
+    }
+}
+
+.date {
+    overflow-x: hidden;
+    display: inline;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 550px) {
+    .date {
+        width: 120px;
+    }
+}
+
+@media (max-width: 460px) {
+    .date {
+        width: 70px;
+    }
+}
+
+@media (max-width: 350px) {
+    .date {
+        width: 50px;
+    }
+}

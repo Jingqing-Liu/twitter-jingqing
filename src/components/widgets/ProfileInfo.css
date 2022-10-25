@@ -1,0 +1,76 @@
+.name-and-username-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.profile-name {
+    font-size: 20px;
+    width: 90%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-username {
+    font-size: 17px;
+    font-weight: normal;
+    color: var(--darkGrey);
+}
+
+.name-and-username-container * {
+    margin: 0;
+}
+
+.bio {
+    font-size: 15px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.dates-container {
+    color: var(--darkGrey);
+    font-size: 15px;
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 500px) {
+    .dates-container {
+        flex-direction: column;
+    }
+}
+
+.dates-container p {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin: 0;
+}
+
+.dates-container svg {
+    font-size: 18px;
+}
+
+.follow-info-container {
+    display: flex;
+    gap: 1rem;
+    font-size: 15px;
+}
+
+.follow-info-container {
+    display: flex;
+    gap: 1rem;
+    font-size: 15px;
+}
+
+.follow-info-container span {
+    font-weight: bold;
+    color: var(--black);
+    margin-right: 0.3rem;
+}
+
+.follow-info-container p {
+    cursor: pointer;
+    color: var(--darkGrey);
+}
+

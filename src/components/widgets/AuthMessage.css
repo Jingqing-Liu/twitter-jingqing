@@ -1,0 +1,13 @@
+.p {
+    text-align: center;
+    padding: 0 0.5rem;
+    font-size: 15px; 
+}
+
+.success {
+    color: var(--success);
+}
+
+.error {
+    color: var(--error);
+}

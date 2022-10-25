@@ -1,0 +1,34 @@
+img.small {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+img.large {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+img.larger {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+img.extra-larger {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 133px;
+    width: 133px;
+}
+
+@media (max-width: 500px) {
+    img.extra-larger {
+        width: 100px;
+        height: 100px;
+    }
+}

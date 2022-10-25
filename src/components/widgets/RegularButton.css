@@ -1,0 +1,87 @@
+button:disabled {
+    opacity: 0.5;
+    user-select: none;
+    pointer-events: none;
+}
+
+button.regular-blue {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    transition: 150ms ease;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--primary);
+}
+
+button.regular-blue:hover {
+        background-color: var(--primaryLight);
+}
+
+button.regular-black {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    transition: 150ms ease;
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
+}
+
+button.regular-black:hover {
+    background-color: var(--xDarkGrey);
+}
+
+button.regular-white {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    transition: 150ms ease;
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+button.regular-white:hover {
+        background-color: var(--xLightGrey);
+}
+
+button.regular-white-grey {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    transition: 150ms ease;
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--lightGrey);
+}
+button.regular-white-grey:hover {
+    background-color: var(--xLightGrey);
+}
+
+.spinner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    display: none;
+}

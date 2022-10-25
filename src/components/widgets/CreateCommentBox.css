@@ -1,0 +1,44 @@
+.createcommentbox-div {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    align-items: center;
+    height: 5rem;
+    gap: 1rem;
+    border-bottom: 1px solid var(--xLightGrey);
+}
+
+.comment-button-container button {
+    padding: 0.5rem 1rem;
+}
+
+@media (max-width: 400px) {
+    .comment-button-container button {
+        font-size: 14px;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+.createcommentbox-input {
+    width: 75%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 19px;
+}
+
+.createcommentbox-input::-webkit-input-placeholder {
+    text-overflow: ellipsis;
+}
+
+.createcommentbox-input::-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+.createcommentbox-input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+}
+
+.createcommentbox-input:-moz-placeholder {
+    text-overflow: ellipsis;
+}

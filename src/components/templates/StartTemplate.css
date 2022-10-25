@@ -1,0 +1,61 @@
+.starttemplate {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 16fr 15fr;
+}
+
+@media (max-width: 1000px) {
+    .starttemplate {
+        grid-template-columns: 1fr;
+    }
+}
+
+.start-img-container {
+    position:relative;
+    display: flex;
+    background-color: var(--black);
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .start-img-container{
+        height: 45vh;
+        grid-row: 2;
+    }
+}
+
+.start-img-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.BigTwitterLogo {
+    position:absolute;
+    display: flex;
+    margin:40% 25% auto;
+}
+
+.BigTwitterLogo img {
+    width: 9.5cm;
+    height: auto;
+    object-fit: cover;
+}
+
+.start-welcome-container {
+    margin: 3rem auto;
+}
+
+@media (max-width: 550px) {
+    .start-welcome-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .start-welcome-container {
+        height: 75vh;
+        grid-row: 1;
+    }
+}

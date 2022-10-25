@@ -1,0 +1,15 @@
+.signupform {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.signupform button:last-of-type {
+    margin-top: 1.5rem;
+}
+
+.signup-special-input-container {
+    height: 3rem;
+}
+

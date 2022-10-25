@@ -1,0 +1,14 @@
+.loginform-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.loginform-form button:last-of-type {
+    margin-top: 1.5rem;
+}
+
+.login-special-input-container {
+    height: 3rem;
+}
